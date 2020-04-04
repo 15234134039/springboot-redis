@@ -26,7 +26,7 @@ public class BootLettuce {
 
     @Test
     public void test3(){
-        User user = userService.selectById("003");
+        User user = userService.selectById("005");
         System.out.println(user);
     }
 
